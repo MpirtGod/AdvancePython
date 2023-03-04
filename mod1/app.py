@@ -21,8 +21,6 @@ def read_txt(filename):
 
 war_and_peace = read_txt('war_and_peace.txt')
 
-# Push from linux
-
 @app.route('/hello_world')
 def hello_world():  # put application's code here
     return 'Привет, мир!'
