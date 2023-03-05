@@ -1,20 +1,21 @@
+import re
 import sys
 
 
 def decode(code):
-    index = code.find('.')
-    if index == -1:
-        return code
-    else:
-        if index+1==len(code):
-            new_code = code[:-1]
-        elif code[index+1] != '.':
-            new_code = code[:index - 1] + code[index:]
-        else:
-            new_code = code[:index-2] + code[index+1:]
-        code = decode(new_code)
-    return code
+    mass = list(code)
+    i=1
+    while i<len(mass):
+        if mass[i-1] == '.':
+            if mass[i] == '.':
+                for x in range(3):
+                    if mass: mass.pop(i-2)
+                if i!=1: i-=1
+            else: mass.pop(i-1)
+        else: i += 1
+    if '.' in mass:
+        mass.remove('.')
+    return ''.join(mass)
 
 if __name__ == '__main__':
-    # print(decode(sys.stdin.readline()))
-    print(decode(input()))
+    print(decode(sys.stdin.readline()))
