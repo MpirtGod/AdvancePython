@@ -2,19 +2,18 @@ import sys
 
 
 def decode(code):
-    mass = list(code)
-    i=1
-    while i<len(mass):
-        if mass[i-1] == '.':
-            if mass[i] == '.':
-                for x in range(3):
-                    if mass: mass.pop(i-2)
-                if i!=1: i-=1
-            else: mass.pop(i-1)
-        else: i += 1
-    if '.' in mass:
-        mass.remove('.')
-    return ''.join(mass)
+    result = []
+    for ch in code:
+        result.append(ch)
+
+        if len(result) > 2 and result[-1] == '.' and result[-2] == '.':
+            result.pop()
+            result.pop()
+            if result:
+                result.pop()
+
+    return ''.join(ch for ch in result if ch !='.')
+
 
 if __name__ == '__main__':
     print(decode(sys.stdin.readline()))
