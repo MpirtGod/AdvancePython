@@ -4,11 +4,13 @@ from flask import Flask
 app = Flask(__name__)
 storage = {}
 
-@app.route('/add/<date>/<int:number>')
+@app.route('/add/<int:date>/<int:number>')
 def add(date, number):
-    storage.setdefault(date[:4], {}).setdefault(date[4:6], 0)
-    storage[date[:4]][date[4:6]] += number
-    return f'Сохранено! {storage}'
+    if len(str(date)) == 8:
+        date = str(date)
+        storage.setdefault(date[:4], {}).setdefault(date[4:6], 0)
+        storage[date[:4]][date[4:6]] += number
+        return f'Сохранено!'
 
 @app.route('/calculate/<int:year>')
 def calculate_year(year):
