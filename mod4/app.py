@@ -45,9 +45,9 @@ def registration():
 @app.route("/uptime")
 def uptime():
     with open('/proc/uptime', 'r') as f:
-        seconds = float(f.readline().split(maxsplit=1)[0])
-    UPTIME = str(timedelta(seconds=seconds)).split('.')[0]
-    return f"Current uptime is {UPTIME}"
+        seconds = float(f.readline().split()[0])
+    uptime = str(timedelta(seconds=seconds)).split('.')[0]
+    return f"Current uptime is {uptime}"
 
 
 if __name__ == '__main__':
