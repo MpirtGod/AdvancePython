@@ -1,3 +1,4 @@
+from datetime import timedelta
 from typing import Optional
 from flask import Flask
 from flask_wtf import FlaskForm
@@ -40,6 +41,13 @@ def registration():
         email, phone = form.email.data, form.phone.data
         return f'Пользователь с email {email} и телефоном +7{phone} зарегестрирован!'
     return f'{form.errors}', 400
+
+@app.route("/uptime")
+def uptime():
+    with open('/proc/uptime', 'r') as f:
+        seconds = float(f.readline().split(maxsplit=1)[0])
+    UPTIME = str(timedelta(seconds=seconds)).split('.')[0]
+    return f"Current uptime is {UPTIME}"
 
 
 if __name__ == '__main__':
