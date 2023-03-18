@@ -1,6 +1,8 @@
+import shlex
+import subprocess
 from datetime import timedelta
 from typing import Optional
-from flask import Flask
+from flask import Flask, request
 from flask_wtf import FlaskForm
 from wtforms import StringField, IntegerField, Field, ValidationError
 from wtforms.validators import InputRequired, Email, NumberRange
@@ -49,6 +51,14 @@ def uptime():
     uptime = str(timedelta(seconds=seconds)).split('.')[0]
     return f"Current uptime is {uptime}"
 
+@app.route("/ps", methods=['GET'])
+def _ps():
+    args: list[str] = request.args.getlist('arg')
+    clean_user_cmd = [shlex.quote(arg) for arg in args]
+    command_str = f"ps {' '.join(clean_user_cmd)}"
+    command = shlex.split(command_str)
+    result = subprocess.run(command, capture_output=True).stdout.decode()
+    return f"<pre>{result}</pre>"
 
 if __name__ == '__main__':
     app.config['WTF_CSRF_ENABLED'] = False

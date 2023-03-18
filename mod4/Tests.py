@@ -26,7 +26,7 @@ class TestWtform(unittest.TestCase):
         assert (response.status_code == 400)
 
     def test_string_phone_error(self):
-        response = self.app.post(self.base_url, data={"email": "admin@mail.com", "phone": '9028765432', "name": "Sasha", "address": "Have", "index": 344523})
+        response = self.app.post(self.base_url, data={"email": "admin@mail.com", "phone": 'somestrin', "name": "Sasha", "address": "Have", "index": 344523})
         assert (response.status_code == 400)
 
     def test_numeric_name_error(self):
