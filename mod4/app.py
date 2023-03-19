@@ -57,7 +57,10 @@ def _ps():
     clean_user_cmd = [shlex.quote(arg) for arg in args]
     command_str = f"ps {' '.join(clean_user_cmd)}"
     command = shlex.split(command_str)
-    result = subprocess.run(command, capture_output=True).stdout.decode()
+    result = subprocess.run(command, capture_output=True)
+    if result.returncode != 0:
+        return 'Что-то пошло не так!', 500
+    output = result.stdout.decode()
     return f"<pre>{result}</pre>"
 
 if __name__ == '__main__':
