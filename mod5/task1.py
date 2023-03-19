@@ -6,7 +6,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-def try_open_port(port: int):
+def open_port(port: int):
     command_str = f'lsof -i :{port}'
     command = shlex.split(command_str)
     result = subprocess.run(command, capture_output=True)
@@ -18,7 +18,9 @@ def try_open_port(port: int):
     if not os.getpid() in busy_ports:
         for pid in busy_ports:
             os.kill(pid, signal.SIGKILL)
-    app.run(port=port)
+
 
 if __name__ == "__main__":
-    try_open_port(5000)
+    port = 5000
+    open_port(port)
+    app.run(port=port)
