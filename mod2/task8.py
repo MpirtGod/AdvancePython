@@ -23,4 +23,4 @@ def calculate_month(year, month):
     return f'Суммарные траты за указанные год и месяц: {storage[str(year)][str(month)]}'
 
 if __name__ == '__main__':
-    app.run(Debug=True)
+    app.run(debug=True)
