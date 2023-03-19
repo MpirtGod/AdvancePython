@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e33b4845-0c82-42e5-a164-df659d779a1b" name="Changes" comment="mod5">
+    <list default="true" id="e33b4845-0c82-42e5-a164-df659d779a1b" name="Changes" comment="gitignore">
+      <change afterPath="$PROJECT_DIR$/.idea/AdvancePython.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +72,29 @@
       <recent name="C:\Users\тест\PycharmProjects\AdvancePython\1.5 Практическая работа" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.app">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AdvancePython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mod1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mod1/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="AdvancePython" type="Python.FlaskServer">
       <module name="AdvancePython" />
       <option name="target" value="$PROJECT_DIR$/mod1/app.py" />
@@ -127,21 +156,6 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for TestsTask4.TestInit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="AdvancePython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mod3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestsTask4.TestInit&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for Tests.TestWtform" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="AdvancePython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,16 +176,16 @@
       <item itemvalue="Flask server.Flask (mod1/app.py)" />
       <item itemvalue="Flask server.Flask (mod2/task8.py)" />
       <item itemvalue="Flask server.Flask (mod5/task1.py)" />
+      <item itemvalue="Python.app" />
       <item itemvalue="Python tests.Python tests for Tests.TestWtform" />
-      <item itemvalue="Python tests.Python tests for TestsTask4.TestInit" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app" />
         <item itemvalue="Flask server.Flask (mod5/task1.py)" />
         <item itemvalue="Flask server.Flask (mod1/app.py)" />
         <item itemvalue="Flask server.Flask (mod2/task8.py)" />
         <item itemvalue="Python tests.Python tests for Tests.TestWtform" />
-        <item itemvalue="Python tests.Python tests for TestsTask4.TestInit" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +205,7 @@
       <workItem from="1678527933942" duration="7811000" />
       <workItem from="1679142945441" duration="6463000" />
       <workItem from="1679237258009" duration="1652000" />
-      <workItem from="1679239078309" duration="388000" />
+      <workItem from="1679239078309" duration="679000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1677741649419</created>
@@ -298,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679238719813</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="gitignore">
+      <created>1679239675167</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1679239675167</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,10 +340,10 @@
     <MESSAGE value="mod1" />
     <MESSAGE value="mod2" />
     <MESSAGE value="mod3" />
-    <MESSAGE value="gitignore" />
     <MESSAGE value="mod4" />
     <MESSAGE value="mod5" />
-    <option name="LAST_COMMIT_MESSAGE" value="mod5" />
+    <MESSAGE value="gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
