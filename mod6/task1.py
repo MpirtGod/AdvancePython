@@ -26,7 +26,7 @@ def divide():
 @app.errorhandler(ZeroDivisionError)
 def handle_exception(e: ZeroDivisionError):
     logger.exception("We are unable to divide by zero!", exc_info=e)
-    return "! unable to divide by zero!", 400
+    return "We are unable to divide by zero!", 400
 
 
 if __name__ == '__main__':
