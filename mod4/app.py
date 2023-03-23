@@ -61,7 +61,7 @@ def _ps():
     if result.returncode != 0:
         return 'Что-то пошло не так!', 500
     output = result.stdout.decode()
-    return f"<pre>{result}</pre>"
+    return f"<pre>{output}</pre>"
 
 if __name__ == '__main__':
     app.config['WTF_CSRF_ENABLED'] = False
