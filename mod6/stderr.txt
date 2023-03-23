@@ -1,0 +1,19 @@
+20:29:27 password_checker INFO Вы пытаетесь аутентифицироваться
+20:29:27 password_checker INFO У вас есть 3 попыток
+20:29:34 password_checker ERROR Пользователь трижды ввел неправильный пароль!
+20:38:22 password_checker INFO Вы пытаетесь аутентифицироваться
+20:38:22 password_checker INFO У вас есть 3 попыток
+20:44:02 password_checker INFO Вы пытаетесь аутентифицироваться
+20:44:02 password_checker INFO У вас есть 3 попыток
+20:45:01 password_checker INFO Вы пытаетесь аутентифицироваться
+20:45:01 password_checker INFO У вас есть 3 попыток
+20:46:17 password_checker INFO Вы пытаетесь аутентифицироваться
+20:46:17 password_checker INFO У вас есть 3 попыток
+20:46:47 password_checker INFO Вы пытаетесь аутентифицироваться
+20:46:47 password_checker INFO У вас есть 3 попыток
+20:46:52 password_checker WARNING Пароль содержит английские слова
+20:47:00 password_checker WARNING Пароль содержит английские слова
+20:48:49 password_checker INFO Вы пытаетесь аутентифицироваться
+20:48:49 password_checker INFO У вас есть 3 попыток
+20:49:05 password_checker WARNING Пароль содержит английские слова
+20:49:05 password_checker ERROR Пользователь трижды ввел неправильный пароль!
