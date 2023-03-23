@@ -30,7 +30,7 @@ def handle_exception(e: ZeroDivisionError):
 
 
 if __name__ == '__main__':
-    logging.basicConfig(level=logging.INFO, filename='stderr.txt', format='%(%H:%M:%S)s %(clientip)-15s %(user)-8s %(message)s')
+    logging.basicConfig(level=logging.DEBUG, filename='stderr.txt', format='%(asctime)s %(clientip)-15s %(user)-8s %(message)s', datefmt='%H:%M:%S')
     logger.info("Started divider server")
     app.config["WIF_CSRF_ENABLED"] = False
     app.run(debug=True)

@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e33b4845-0c82-42e5-a164-df659d779a1b" name="Changes" comment="mod4">
-      <change afterPath="$PROJECT_DIR$/mod6/task1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e33b4845-0c82-42e5-a164-df659d779a1b" name="Changes" comment="mod6">
+      <change beforePath="$PROJECT_DIR$/mod6/task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod6/task1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -341,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679581148696</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="mod6">
+      <created>1679582302368</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1679582302368</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,7 +371,8 @@
     <MESSAGE value="mod5" />
     <MESSAGE value="gitignore" />
     <MESSAGE value="mod4" />
-    <option name="LAST_COMMIT_MESSAGE" value="mod4" />
+    <MESSAGE value="mod6" />
+    <option name="LAST_COMMIT_MESSAGE" value="mod6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
