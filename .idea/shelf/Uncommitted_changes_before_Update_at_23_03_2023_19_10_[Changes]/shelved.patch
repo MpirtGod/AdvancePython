@@ -1,0 +1,18 @@
+Index: .idea/AdvancePython.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module version=\"4\">\r\n  <component name=\"PyDocumentationSettings\">\r\n    <option name=\"format\" value=\"PLAIN\" />\r\n    <option name=\"myDocStringFormat\" value=\"Plain\" />\r\n  </component>\r\n  <component name=\"TemplatesService\">\r\n    <option name=\"TEMPLATE_FOLDERS\">\r\n      <list>\r\n        <option value=\"$MODULE_DIR$/templates\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n</module>
+===================================================================
+diff --git a/.idea/AdvancePython.iml b/.idea/AdvancePython.iml
+--- a/.idea/AdvancePython.iml	
++++ b/.idea/AdvancePython.iml	
+@@ -1,9 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <module version="4">
+-  <component name="PyDocumentationSettings">
+-    <option name="format" value="PLAIN" />
+-    <option name="myDocStringFormat" value="Plain" />
+-  </component>
+   <component name="TemplatesService">
+     <option name="TEMPLATE_FOLDERS">
+       <list>
