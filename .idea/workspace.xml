@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e33b4845-0c82-42e5-a164-df659d779a1b" name="Changes" comment="mod5">
-      <change afterPath="$PROJECT_DIR$/mod6/engwords.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod6/skillbox_json_messages.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod6/task1-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod6/task4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod6/task1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod6/skillbox_json_messages.log" beforeDir="false" afterPath="$PROJECT_DIR$/mod6/skillbox_json_messages.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod6/task1-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod6/task1to3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,14 +163,12 @@
     <list>
       <item itemvalue="Flask server.AdvancePython" />
       <item itemvalue="Python tests.Python tests in Tests.py" />
-      <item itemvalue="Python tests.Python tests in Tests.py (1)" />
       <item itemvalue="Python tests.Python tests in TestsTask2.py" />
       <item itemvalue="Python tests.Python tests in TestsTask3.py" />
       <item itemvalue="Python tests.Python tests in TestsTask4.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in Tests.py (1)" />
         <item itemvalue="Python tests.Python tests in Tests.py" />
         <item itemvalue="Python tests.Python tests in TestsTask2.py" />
         <item itemvalue="Python tests.Python tests in TestsTask4.py" />
@@ -200,6 +197,7 @@
       <workItem from="1679387841823" duration="11447000" />
       <workItem from="1679399877452" duration="68000" />
       <workItem from="1679584831238" duration="8427000" />
+      <workItem from="1679643628733" duration="9182000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1677741649419</created>
@@ -368,19 +366,24 @@
           <line>50</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mod6/task4.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AdvancePython$Flask__mod5_task1_py_.coverage" NAME="Flask (mod5/task1.py) Coverage Results" MODIFIED="1679238643259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/AdvancePython$task4.coverage" NAME="task4 Coverage Results" MODIFIED="1679398369834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod5" />
+    <SUITE FILE_PATH="coverage/AdvancePython$task4.coverage" NAME="task4 Coverage Results" MODIFIED="1679655179255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod6" />
     <SUITE FILE_PATH="coverage/AdvancePython$Flask__mod1_app_py_.coverage" NAME="Flask (mod1/app.py) Coverage Results" MODIFIED="1679238631554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/AdvancePython$Flask__mod4_app_py_.coverage" NAME="Flask (mod4/app.py) Coverage Results" MODIFIED="1679148482112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/AdvancePython$task3.coverage" NAME="task3 Coverage Results" MODIFIED="1679336950021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod5" />
-    <SUITE FILE_PATH="coverage/AdvancePython$AdvancePython.coverage" NAME="AdvancePython Coverage Results" MODIFIED="1679584914792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AdvancePython$AdvancePython.coverage" NAME="AdvancePython Coverage Results" MODIFIED="1679647076864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AdvancePython$.coverage" NAME=" Coverage Results" MODIFIED="1679399217408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod3" />
     <SUITE FILE_PATH="coverage/AdvancePython$Flask__1_5___app_py_.coverage" NAME="Flask (mod1/app.py) Coverage Results" MODIFIED="1677755831713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AdvancePython$task1_2.coverage" NAME="task1-2 Coverage Results" MODIFIED="1679599897207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod6" />
+    <SUITE FILE_PATH="coverage/AdvancePython$task1_2.coverage" NAME="task1-2 Coverage Results" MODIFIED="1679647123307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod6" />
     <SUITE FILE_PATH="coverage/AdvancePython$Flask.coverage" NAME="Flask Coverage Results" MODIFIED="1678880203401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AdvancePython$get_mean_size.coverage" NAME="get_mean_size Coverage Results" MODIFIED="1678020230078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod2" />
     <SUITE FILE_PATH="coverage/AdvancePython$Flask__mod2_task8_py_.coverage" NAME="Flask (mod2/task8.py) Coverage Results" MODIFIED="1679238532340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />

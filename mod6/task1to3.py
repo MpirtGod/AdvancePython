@@ -5,31 +5,13 @@ import os
 import re
 
 
-
-# class JsonAdapter(logging.LoggerAdapter):
-#     def process(self, msg, kwargs):
-#         extra = self.extra.copy()
-#         if 'metadata' in kwargs:
-#             extra.update(kwargs.pop('metadata'))
-#         if extra:
-#             json_data = json.dumps(extra, sort_keys=True, ensure_ascii=False)
-#             try:
-#                 line = u'{json_data} {msg}'.format(json_data=json_data, msg=msg)
-#             except UnicodeDecodeError:
-#                 line = u'{json_data} {msg}'.format(
-#                     json_data=json_data, msg=repr(msg))
-#         else:
-#             line = msg
-#         return (line, kwargs)
-
 class JsonAdapter(logging.LoggerAdapter):
     def process(self, msg, kwargs):
-        # msg = json.dumps(msg, ensure_ascii=False)
+        msg = json.dumps(msg, ensure_ascii=False)
         return msg, kwargs
 
 
 logger = JsonAdapter(logging.getLogger('password_checker'))
-logger.info('"')
 
 
 def read_book(filename):
@@ -73,7 +55,7 @@ def input_and_check_password():
 
 
 if __name__=='__main__':
-    logging.basicConfig(level=logging.INFO, filename='skillbox_json_messages.log', format='{"time": "%(asctime)s", "level": "%(levelname)s", "message": "%(message)s"}', datefmt='%H:%M:%S')
+    logging.basicConfig(level=logging.INFO, filename='skillbox_json_messages.log', format='{"time": "%(asctime)s", "level": "%(levelname)s", "message": %(message)s}', datefmt='%H:%M:%S')
     logger.info("Вы пытаетесь аутентифицироваться")
     count_number: int = 3
     logger.info(f'У вас есть {count_number} попыток')
