@@ -25,7 +25,7 @@ def get_number_input():
             number = float(input("> "))
             return number
         except ValueError:
-            logger.error('Пожалуйста, введите число: ')
+            logger.warning('Пожалуйста, введите число: ')
 
 
 def get_operation():
@@ -36,7 +36,7 @@ def get_operation():
                 raise ValueError
             return choice
         except ValueError:
-            logger.error("Пожалуйста, выберите номер операции (от 1 до 4).")
+            logger.warning("Пожалуйста, выберите номер операции (от 1 до 4).")
 
 
 def add(x,y):
