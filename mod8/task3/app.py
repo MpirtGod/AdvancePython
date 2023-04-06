@@ -22,5 +22,6 @@ def hello_world():
 def send_js(path):
     return send_from_directory(js_dir, path)
 
+
 if __name__ == '__main__':
     app.run()
