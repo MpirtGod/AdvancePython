@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e33b4845-0c82-42e5-a164-df659d779a1b" name="Changes" comment="mod8">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod9/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/mod9/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod9/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod9/app.py" afterDir="false" />
-    </list>
+    <list default="true" id="e33b4845-0c82-42e5-a164-df659d779a1b" name="Changes" comment="mod9" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -201,7 +197,7 @@
       <workItem from="1679584831238" duration="8427000" />
       <workItem from="1679643628733" duration="17149000" />
       <workItem from="1681052429859" duration="2310000" />
-      <workItem from="1681209906855" duration="312000" />
+      <workItem from="1681209906855" duration="542000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1677741649419</created>
@@ -350,7 +346,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680788644400</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="mod8">
+      <created>1681210416364</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1681210416415</updated>
+    </task>
+    <task id="LOCAL-00023" summary="mod9">
+      <created>1681210424500</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1681210424500</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,7 +386,8 @@
     <MESSAGE value="mod5" />
     <MESSAGE value="mod6" />
     <MESSAGE value="mod8" />
-    <option name="LAST_COMMIT_MESSAGE" value="mod8" />
+    <MESSAGE value="mod9" />
+    <option name="LAST_COMMIT_MESSAGE" value="mod9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
