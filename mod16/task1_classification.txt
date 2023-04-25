@@ -1,0 +1,5 @@
+movie_cast и actors: Связь один-ко-многим
+movie_cast и movie: Связь один-ко-многим
+movie и oscar_awarded: Связь один-ко-многим
+movie и movie_direction: Связь много-ко-многим
+movie_direction и director: Связь много-ко-многим
