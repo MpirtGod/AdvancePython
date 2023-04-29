@@ -1314,167 +1314,254 @@
       <Position>1</Position>
     </argument>
     <table id="482" parent="166" name="actors"/>
-    <table id="483" parent="166" name="director"/>
-    <table id="484" parent="166" name="movie"/>
-    <table id="485" parent="166" name="movie_cast"/>
-    <table id="486" parent="166" name="movie_direction"/>
-    <table id="487" parent="166" name="oscar_awarded"/>
-    <table id="488" parent="166" name="sqlite_master">
+    <table id="483" parent="166" name="customer"/>
+    <table id="484" parent="166" name="director"/>
+    <table id="485" parent="166" name="manager"/>
+    <table id="486" parent="166" name="movie"/>
+    <table id="487" parent="166" name="movie_cast"/>
+    <table id="488" parent="166" name="movie_direction"/>
+    <table id="489" parent="166" name="order"/>
+    <table id="490" parent="166" name="oscar_awarded"/>
+    <table id="491" parent="166" name="sqlite_master">
       <System>1</System>
     </table>
-    <table id="489" parent="166" name="sqlite_sequence">
+    <table id="492" parent="166" name="sqlite_sequence">
       <System>1</System>
     </table>
-    <column id="490" parent="482" name="act_id">
+    <column id="493" parent="482" name="act_id">
       <AutoIncrement>1</AutoIncrement>
       <DasType>INTEGER|0s</DasType>
       <Position>1</Position>
     </column>
-    <column id="491" parent="482" name="act_first_name">
+    <column id="494" parent="482" name="act_first_name">
       <DasType>VARCHAR(50)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="492" parent="482" name="act_last_name">
+    <column id="495" parent="482" name="act_last_name">
       <DasType>VARCHAR(50)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="493" parent="482" name="act_gender">
+    <column id="496" parent="482" name="act_gender">
       <DasType>VARCHAR(1)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <key id="494" parent="482">
+    <key id="497" parent="482">
       <ColNames>act_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="495" parent="483" name="dir_id">
+    <column id="498" parent="483" name="customer_id">
+      <AutoIncrement>1</AutoIncrement>
+      <DasType>integer|0s</DasType>
+      <Position>1</Position>
+    </column>
+    <column id="499" parent="483" name="full_name">
+      <DasType>varchar(50)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="500" parent="483" name="city">
+      <DasType>varchar(50)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="501" parent="483" name="manager_id">
+      <DasType>integer|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <foreign-key id="502" parent="483">
+      <ColNames>manager_id</ColNames>
+      <RefColNames>manager_id</RefColNames>
+      <RefTableName>manager</RefTableName>
+    </foreign-key>
+    <key id="503" parent="483">
+      <ColNames>customer_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="504" parent="484" name="dir_id">
       <AutoIncrement>1</AutoIncrement>
       <DasType>INTEGER|0s</DasType>
       <Position>1</Position>
     </column>
-    <column id="496" parent="483" name="dir_first_name">
+    <column id="505" parent="484" name="dir_first_name">
       <DasType>VARCHAR(50)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="497" parent="483" name="dir_last_name">
+    <column id="506" parent="484" name="dir_last_name">
       <DasType>VARCHAR(50)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <key id="498" parent="483">
+    <key id="507" parent="484">
       <ColNames>dir_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="499" parent="484" name="mov_id">
+    <column id="508" parent="485" name="manager_id">
+      <AutoIncrement>1</AutoIncrement>
+      <DasType>integer|0s</DasType>
+      <Position>1</Position>
+    </column>
+    <column id="509" parent="485" name="full_name">
+      <DasType>varchar(50)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="510" parent="485" name="city">
+      <DasType>varchar(50)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <key id="511" parent="485">
+      <ColNames>manager_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="512" parent="486" name="mov_id">
       <AutoIncrement>1</AutoIncrement>
       <DasType>INTEGER|0s</DasType>
       <Position>1</Position>
     </column>
-    <column id="500" parent="484" name="mov_title">
+    <column id="513" parent="486" name="mov_title">
       <DasType>VARCHAR(50)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <key id="501" parent="484">
+    <key id="514" parent="486">
       <ColNames>mov_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="502" parent="485" name="act_id">
+    <column id="515" parent="487" name="act_id">
       <DasType>INTEGER|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="503" parent="485" name="mov_id">
+    <column id="516" parent="487" name="mov_id">
       <DasType>INTEGER|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="504" parent="485" name="role">
+    <column id="517" parent="487" name="role">
       <DasType>VARCHAR(50)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <foreign-key id="505" parent="485">
+    <foreign-key id="518" parent="487">
       <ColNames>act_id</ColNames>
       <OnDelete>cascade</OnDelete>
       <RefColNames>act_id</RefColNames>
       <RefTableName>actors</RefTableName>
     </foreign-key>
-    <foreign-key id="506" parent="485">
+    <foreign-key id="519" parent="487">
       <ColNames>mov_id</ColNames>
       <OnDelete>cascade</OnDelete>
       <RefColNames>mov_id</RefColNames>
       <RefTableName>movie</RefTableName>
     </foreign-key>
-    <column id="507" parent="486" name="dir_id">
+    <column id="520" parent="488" name="dir_id">
       <DasType>INTEGER|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="508" parent="486" name="mov_id">
+    <column id="521" parent="488" name="mov_id">
       <DasType>INTEGER|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <foreign-key id="509" parent="486">
+    <foreign-key id="522" parent="488">
       <ColNames>dir_id</ColNames>
       <OnDelete>cascade</OnDelete>
       <RefColNames>dir_id</RefColNames>
       <RefTableName>director</RefTableName>
     </foreign-key>
-    <foreign-key id="510" parent="486">
+    <foreign-key id="523" parent="488">
       <ColNames>mov_id</ColNames>
       <OnDelete>cascade</OnDelete>
       <RefColNames>mov_id</RefColNames>
       <RefTableName>movie</RefTableName>
     </foreign-key>
-    <column id="511" parent="487" name="award_id">
+    <column id="524" parent="489" name="order_no">
+      <AutoIncrement>1</AutoIncrement>
+      <DasType>integer|0s</DasType>
+      <Position>1</Position>
+    </column>
+    <column id="525" parent="489" name="purchase_amount">
+      <DasType>integer|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="526" parent="489" name="date">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="527" parent="489" name="customer_id">
+      <DasType>integer|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="528" parent="489" name="manager_id">
+      <DasType>integer|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <foreign-key id="529" parent="489">
+      <ColNames>customer_id</ColNames>
+      <RefColNames>customer_id</RefColNames>
+      <RefTableName>customer</RefTableName>
+    </foreign-key>
+    <foreign-key id="530" parent="489">
+      <ColNames>manager_id</ColNames>
+      <RefColNames>manager_id</RefColNames>
+      <RefTableName>manager</RefTableName>
+    </foreign-key>
+    <key id="531" parent="489">
+      <ColNames>order_no</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="532" parent="490" name="award_id">
       <AutoIncrement>1</AutoIncrement>
       <DasType>INTEGER|0s</DasType>
       <Position>1</Position>
     </column>
-    <column id="512" parent="487" name="mov_id">
+    <column id="533" parent="490" name="mov_id">
       <DasType>INTEGER|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <foreign-key id="513" parent="487">
+    <foreign-key id="534" parent="490">
       <ColNames>mov_id</ColNames>
       <OnDelete>cascade</OnDelete>
       <RefColNames>mov_id</RefColNames>
       <RefTableName>movie</RefTableName>
     </foreign-key>
-    <key id="514" parent="487">
+    <key id="535" parent="490">
       <ColNames>award_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="515" parent="488" name="type">
+    <column id="536" parent="491" name="type">
       <DasType>TEXT|0s</DasType>
       <Position>1</Position>
     </column>
-    <column id="516" parent="488" name="name">
+    <column id="537" parent="491" name="name">
       <DasType>TEXT|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="517" parent="488" name="tbl_name">
+    <column id="538" parent="491" name="tbl_name">
       <DasType>TEXT|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="518" parent="488" name="rootpage">
+    <column id="539" parent="491" name="rootpage">
       <DasType>INT|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="519" parent="488" name="sql">
+    <column id="540" parent="491" name="sql">
       <DasType>TEXT|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="520" parent="489" name="name">
+    <column id="541" parent="492" name="name">
       <Position>1</Position>
     </column>
-    <column id="521" parent="489" name="seq">
+    <column id="542" parent="492" name="seq">
       <Position>2</Position>
     </column>
   </database-model>
