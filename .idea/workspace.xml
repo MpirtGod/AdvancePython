@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e33b4845-0c82-42e5-a164-df659d779a1b" name="Changes" comment="mod16">
-      <change afterPath="$PROJECT_DIR$/mod19/generate_database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod19/task1_1.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod19/task1_2.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod19/task1_3.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod19/task1_4.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod19/task1_6.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/00a2d5ea-20ac-4210-8d69-03187be81fdd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/00a2d5ea-20ac-4210-8d69-03187be81fdd.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ace8e331-8b0c-4781-9c43-932191618c87.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ace8e331-8b0c-4781-9c43-932191618c87.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e33b4845-0c82-42e5-a164-df659d779a1b" name="Changes" comment="mod19" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,29 +42,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/тест/PycharmProjects/AdvancePython/mod19&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/тест/PycharmProjects/WebAppVoiceTransmition",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;RunConfigurationTargetLRU&quot;: [
-      &quot;00a2d5ea-20ac-4210-8d69-03187be81fdd/schema/\&quot;main\&quot;&quot;,
-      &quot;00a2d5ea-20ac-4210-8d69-03187be81fdd&quot;
+  "keyToStringList": {
+    "RunConfigurationTargetLRU": [
+      "00a2d5ea-20ac-4210-8d69-03187be81fdd/schema/\"main\"",
+      "00a2d5ea-20ac-4210-8d69-03187be81fdd"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\тест\PycharmProjects\AdvancePython\mod19" />
@@ -282,6 +270,7 @@
       <workItem from="1682783998407" duration="3110000" />
       <workItem from="1682787287703" duration="4665000" />
       <workItem from="1682837008874" duration="7343000" />
+      <workItem from="1682866702142" duration="112000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1677741649419</created>
@@ -493,7 +482,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682759659170</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="mod19">
+      <created>1682866825421</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1682866825421</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -523,7 +519,8 @@
     <MESSAGE value="mod10" />
     <MESSAGE value="mod13" />
     <MESSAGE value="mod16" />
-    <option name="LAST_COMMIT_MESSAGE" value="mod16" />
+    <MESSAGE value="mod19" />
+    <option name="LAST_COMMIT_MESSAGE" value="mod19" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
