@@ -123,7 +123,7 @@ def pass_book():
     except NoResultFound:
         return 'Такой связки book_id и student_id не существует'
     except MultipleResultsFound:
-        return 'С такой связкой book_id и student_id надено несколько записей'
+        return 'С такой связкой book_id и student_id найдено несколько записей'
 
 
 if __name__ == "__main__":
