@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e33b4845-0c82-42e5-a164-df659d779a1b" name="Changes" comment="mod19">
-      <change afterPath="$PROJECT_DIR$/mod20/hw.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod20/task.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/AdvancePython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AdvancePython.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="e33b4845-0c82-42e5-a164-df659d779a1b" name="Changes" comment="mod20">
+      <change afterPath="$PROJECT_DIR$/mod21/task.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,30 +45,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "import_schema_mapping": "<schema-mapping>\n  <databases>\n    <list>\n      <schema-mapping-item>\n        <source-data-source-id>5e48369a-54d7-48b6-aa29-1f5ec02bd03e</source-data-source-id>\n        <source-path>schema/&quot;main&quot;</source-path>\n        <target-data-source-id>d65787c1-219a-4f53-83a6-daf1494a87aa</target-data-source-id>\n        <target-path>schema/&quot;main&quot;</target-path>\n      </schema-mapping-item>\n    </list>\n  </databases>\n</schema-mapping>",
-    "last_opened_file_path": "C:/Users/тест/PycharmProjects/AdvancePython/mod20",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "File.Encoding",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;import_schema_mapping&quot;: &quot;&lt;schema-mapping&gt;\n  &lt;databases&gt;\n    &lt;list&gt;\n      &lt;schema-mapping-item&gt;\n        &lt;source-data-source-id&gt;5e48369a-54d7-48b6-aa29-1f5ec02bd03e&lt;/source-data-source-id&gt;\n        &lt;source-path&gt;schema/&amp;quot;main&amp;quot;&lt;/source-path&gt;\n        &lt;target-data-source-id&gt;d65787c1-219a-4f53-83a6-daf1494a87aa&lt;/target-data-source-id&gt;\n        &lt;target-path&gt;schema/&amp;quot;main&amp;quot;&lt;/target-path&gt;\n      &lt;/schema-mapping-item&gt;\n    &lt;/list&gt;\n  &lt;/databases&gt;\n&lt;/schema-mapping&gt;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/тест/PycharmProjects/AdvancePython/mod20&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "RunConfigurationTargetLRU": [
-      "00a2d5ea-20ac-4210-8d69-03187be81fdd/schema/\"main\"",
-      "00a2d5ea-20ac-4210-8d69-03187be81fdd"
+  &quot;keyToStringList&quot;: {
+    &quot;RunConfigurationTargetLRU&quot;: [
+      &quot;00a2d5ea-20ac-4210-8d69-03187be81fdd/schema/\&quot;main\&quot;&quot;,
+      &quot;00a2d5ea-20ac-4210-8d69-03187be81fdd&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\тест\PycharmProjects\AdvancePython\mod20" />
@@ -88,7 +84,7 @@
       <recent name="C:\Users\тест\PycharmProjects\AdvancePython\1.5 Практическая работа" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Database Script.task2_1.sql">
     <configuration name="task2_1.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/mod16/task2_1.sql" />
       <script-mode>FILE</script-mode>
@@ -285,7 +281,8 @@
       <workItem from="1683231037019" duration="37000" />
       <workItem from="1683231084140" duration="124000" />
       <workItem from="1683286116556" duration="10135000" />
-      <workItem from="1683364196802" duration="5035000" />
+      <workItem from="1683364196802" duration="6966000" />
+      <workItem from="1683541861726" duration="637000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1677741649419</created>
@@ -511,7 +508,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683026538160</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="mod20">
+      <created>1683371685881</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1683371685881</updated>
+    </task>
+    <task id="LOCAL-00034" summary="mod20">
+      <created>1683386059829</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1683386059829</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,7 +553,8 @@
     <MESSAGE value="mod13" />
     <MESSAGE value="mod16" />
     <MESSAGE value="mod19" />
-    <option name="LAST_COMMIT_MESSAGE" value="mod19" />
+    <MESSAGE value="mod20" />
+    <option name="LAST_COMMIT_MESSAGE" value="mod20" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
