@@ -75,6 +75,9 @@ class ReceivingBook(Base):
             return (datetime.now() - self.date_of_issue).days
 
 
+Base.metadata.create_all(engine)
+
+
 @app.before_request
 def before_request_func():
     Base.metadata.create_all(engine)
