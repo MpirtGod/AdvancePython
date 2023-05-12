@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e33b4845-0c82-42e5-a164-df659d779a1b" name="Changes" comment="mod20">
-      <change afterPath="$PROJECT_DIR$/mod21/task.py" afterDir="false" />
+    <list default="true" id="e33b4845-0c82-42e5-a164-df659d779a1b" name="Changes" comment="mod21">
+      <change afterPath="$PROJECT_DIR$/mod11/hw.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod11/taks1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod11/task2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod11/task3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod11/task4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod21/hw2.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod21/task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod20/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod20/task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod21/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod21/task.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,37 +55,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;import_schema_mapping&quot;: &quot;&lt;schema-mapping&gt;\n  &lt;databases&gt;\n    &lt;list&gt;\n      &lt;schema-mapping-item&gt;\n        &lt;source-data-source-id&gt;5e48369a-54d7-48b6-aa29-1f5ec02bd03e&lt;/source-data-source-id&gt;\n        &lt;source-path&gt;schema/&amp;quot;main&amp;quot;&lt;/source-path&gt;\n        &lt;target-data-source-id&gt;d65787c1-219a-4f53-83a6-daf1494a87aa&lt;/target-data-source-id&gt;\n        &lt;target-path&gt;schema/&amp;quot;main&amp;quot;&lt;/target-path&gt;\n      &lt;/schema-mapping-item&gt;\n    &lt;/list&gt;\n  &lt;/databases&gt;\n&lt;/schema-mapping&gt;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/тест/PycharmProjects/AdvancePython/mod20&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "import_schema_mapping": "<schema-mapping>\n  <databases>\n    <list>\n      <schema-mapping-item>\n        <source-data-source-id>5e48369a-54d7-48b6-aa29-1f5ec02bd03e</source-data-source-id>\n        <source-path>schema/&quot;main&quot;</source-path>\n        <target-data-source-id>d65787c1-219a-4f53-83a6-daf1494a87aa</target-data-source-id>\n        <target-path>schema/&quot;main&quot;</target-path>\n      </schema-mapping-item>\n    </list>\n  </databases>\n</schema-mapping>",
+    "last_opened_file_path": "C:/Users/тест/PycharmProjects/AdvancePython/mod11",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;RunConfigurationTargetLRU&quot;: [
-      &quot;00a2d5ea-20ac-4210-8d69-03187be81fdd/schema/\&quot;main\&quot;&quot;,
-      &quot;00a2d5ea-20ac-4210-8d69-03187be81fdd&quot;
+  "keyToStringList": {
+    "RunConfigurationTargetLRU": [
+      "00a2d5ea-20ac-4210-8d69-03187be81fdd/schema/\"main\"",
+      "00a2d5ea-20ac-4210-8d69-03187be81fdd"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\тест\PycharmProjects\AdvancePython\mod11" />
+      <recent name="C:\Users\тест\PycharmProjects\AdvancePython\mod21" />
       <recent name="C:\Users\тест\PycharmProjects\AdvancePython\mod20" />
       <recent name="C:\Users\тест\PycharmProjects\AdvancePython\mod19" />
       <recent name="C:\Users\тест\PycharmProjects\AdvancePython\mod16" />
-      <recent name="C:\Users\тест\PycharmProjects\AdvancePython\mod13" />
-      <recent name="C:\Users\тест\PycharmProjects\AdvancePython\mod2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\тест\PycharmProjects\AdvancePython\mod16" />
@@ -84,11 +94,33 @@
       <recent name="C:\Users\тест\PycharmProjects\AdvancePython\1.5 Практическая работа" />
     </key>
   </component>
-  <component name="RunManager" selected="Database Script.task2_1.sql">
+  <component name="RunManager">
     <configuration name="task2_1.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/mod16/task2_1.sql" />
       <script-mode>FILE</script-mode>
       <data-source id="00a2d5ea-20ac-4210-8d69-03187be81fdd" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AdvancePython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mod21" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mod21/task.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="task" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -127,28 +159,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mod16/task2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="task5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AdvancePython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mod13" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\тест\PycharmProjects\AdvancePython\mod13\task5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,19 +230,19 @@
     <list>
       <item itemvalue="Database Script.task2_1.sql" />
       <item itemvalue="Flask server.AdvancePython" />
+      <item itemvalue="Python.task (1)" />
       <item itemvalue="Python.task" />
       <item itemvalue="Python.task2 (1)" />
       <item itemvalue="Python.task6" />
-      <item itemvalue="Python.task5" />
       <item itemvalue="Python.task7" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.task (1)" />
         <item itemvalue="Python.task" />
         <item itemvalue="Python.task2 (1)" />
         <item itemvalue="Python.task6" />
         <item itemvalue="Python.task7" />
-        <item itemvalue="Python.task5" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +292,10 @@
       <workItem from="1683231084140" duration="124000" />
       <workItem from="1683286116556" duration="10135000" />
       <workItem from="1683364196802" duration="6966000" />
-      <workItem from="1683541861726" duration="637000" />
+      <workItem from="1683541861726" duration="5406000" />
+      <workItem from="1683547689261" duration="2319000" />
+      <workItem from="1683621512650" duration="9523000" />
+      <workItem from="1683896871614" duration="15880000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1677741649419</created>
@@ -522,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683386059829</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="mod21">
+      <created>1683542874649</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1683542874649</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -554,7 +574,8 @@
     <MESSAGE value="mod16" />
     <MESSAGE value="mod19" />
     <MESSAGE value="mod20" />
-    <option name="LAST_COMMIT_MESSAGE" value="mod20" />
+    <MESSAGE value="mod21" />
+    <option name="LAST_COMMIT_MESSAGE" value="mod21" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -590,9 +611,9 @@
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/mod20/task.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="23" />
+          <url>file://$PROJECT_DIR$/mod21/task2.py</url>
+          <line>198</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -608,11 +629,12 @@
     <SUITE FILE_PATH="coverage/AdvancePython$Flask__mod5_task1_py_.coverage" NAME="Flask (mod5/task1.py) Coverage Results" MODIFIED="1679238643259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/AdvancePython$app.coverage" NAME="app Coverage Results" MODIFIED="1680777447648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod8/task3" />
     <SUITE FILE_PATH="coverage/AdvancePython$Flask__mod2_task_4_py_.coverage" NAME="Flask (mod2/task 4.py) Coverage Results" MODIFIED="1678176389584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/AdvancePython$task4.coverage" NAME="task4 Coverage Results" MODIFIED="1681988242118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod13" />
+    <SUITE FILE_PATH="coverage/AdvancePython$task4.coverage" NAME="task4 Coverage Results" MODIFIED="1683913325759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod11" />
     <SUITE FILE_PATH="coverage/AdvancePython$generate_database.coverage" NAME="generate_database Coverage Results" MODIFIED="1682784310961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod19" />
+    <SUITE FILE_PATH="coverage/AdvancePython$taks1.coverage" NAME="taks1 Coverage Results" MODIFIED="1683897270479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod11" />
     <SUITE FILE_PATH="coverage/AdvancePython$Flask__mod4_app_py_.coverage" NAME="Flask (mod4/app.py) Coverage Results" MODIFIED="1679238031358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/AdvancePython$task7.coverage" NAME="task7 Coverage Results" MODIFIED="1682104907544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod13" />
-    <SUITE FILE_PATH="coverage/AdvancePython$task3.coverage" NAME="task3 Coverage Results" MODIFIED="1681984565947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod13" />
+    <SUITE FILE_PATH="coverage/AdvancePython$task3.coverage" NAME="task3 Coverage Results" MODIFIED="1683911578567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod11" />
     <SUITE FILE_PATH="coverage/AdvancePython$Flask.coverage" NAME="Flask Coverage Results" MODIFIED="1678880203401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AdvancePython$app__1_.coverage" NAME="app (1) Coverage Results" MODIFIED="1679241357297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod4" />
     <SUITE FILE_PATH="coverage/AdvancePython$Flask__1_5___app_py_.coverage" NAME="Flask (mod1/app.py) Coverage Results" MODIFIED="1677755831713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -621,13 +643,14 @@
     <SUITE FILE_PATH="coverage/AdvancePython$.coverage" NAME=" Coverage Results" MODIFIED="1679237880419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod4" />
     <SUITE FILE_PATH="coverage/AdvancePython$07_generate_UEFA_data.coverage" NAME="07_generate_UEFA_data Coverage Results" MODIFIED="1682093500303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod13" />
     <SUITE FILE_PATH="coverage/AdvancePython$AdvancePython.coverage" NAME="AdvancePython Coverage Results" MODIFIED="1681489196784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AdvancePython$task__1_.coverage" NAME="task (1) Coverage Results" MODIFIED="1683547308989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod21" />
     <SUITE FILE_PATH="coverage/AdvancePython$generate_hw_database.coverage" NAME="generate_hw_database Coverage Results" MODIFIED="1682755263895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod16" />
     <SUITE FILE_PATH="coverage/AdvancePython$task8.coverage" NAME="task8 Coverage Results" MODIFIED="1679240224542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod2" />
-    <SUITE FILE_PATH="coverage/AdvancePython$task2.coverage" NAME="task2 Coverage Results" MODIFIED="1682757567543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod16" />
+    <SUITE FILE_PATH="coverage/AdvancePython$task2.coverage" NAME="task2 Coverage Results" MODIFIED="1683903958188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod11" />
     <SUITE FILE_PATH="coverage/AdvancePython$task1_2.coverage" NAME="task1-2 Coverage Results" MODIFIED="1679647123307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod6" />
     <SUITE FILE_PATH="coverage/AdvancePython$Flask__mod2_task8_py_.coverage" NAME="Flask (mod2/task8.py) Coverage Results" MODIFIED="1679238532340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/AdvancePython$task2__1_.coverage" NAME="task2 (1) Coverage Results" MODIFIED="1682757558145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod16" />
-    <SUITE FILE_PATH="coverage/AdvancePython$task.coverage" NAME="task Coverage Results" MODIFIED="1683371526334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod20" />
+    <SUITE FILE_PATH="coverage/AdvancePython$task.coverage" NAME="task Coverage Results" MODIFIED="1683549852735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod21" />
     <SUITE FILE_PATH="coverage/AdvancePython$script.coverage" NAME="script Coverage Results" MODIFIED="1683221973869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod20" />
     <SUITE FILE_PATH="coverage/AdvancePython$task6.coverage" NAME="task6 Coverage Results" MODIFIED="1682442271569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod13" />
     <SUITE FILE_PATH="coverage/AdvancePython$get_mean_size.coverage" NAME="get_mean_size Coverage Results" MODIFIED="1678020230078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod2" />
