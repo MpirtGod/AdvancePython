@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e33b4845-0c82-42e5-a164-df659d779a1b" name="Changes" comment="mod12">
-      <change afterPath="$PROJECT_DIR$/mod12/hw.db" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mod12/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod12/task1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod12/task2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod12/task3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod12/task4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod21/hw2.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod21/task2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/00a2d5ea-20ac-4210-8d69-03187be81fdd.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/1bf9e8bb-a8bf-41f4-b462-dfbcba9d15d8.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/5e48369a-54d7-48b6-aa29-1f5ec02bd03e.xml" beforeDir="false" />
@@ -71,7 +64,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;import_schema_mapping&quot;: &quot;&lt;schema-mapping&gt;\n  &lt;databases&gt;\n    &lt;list&gt;\n      &lt;schema-mapping-item&gt;\n        &lt;source-data-source-id&gt;5e48369a-54d7-48b6-aa29-1f5ec02bd03e&lt;/source-data-source-id&gt;\n        &lt;source-path&gt;schema/&amp;quot;main&amp;quot;&lt;/source-path&gt;\n        &lt;target-data-source-id&gt;d65787c1-219a-4f53-83a6-daf1494a87aa&lt;/target-data-source-id&gt;\n        &lt;target-path&gt;schema/&amp;quot;main&amp;quot;&lt;/target-path&gt;\n      &lt;/schema-mapping-item&gt;\n    &lt;/list&gt;\n  &lt;/databases&gt;\n&lt;/schema-mapping&gt;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/тест/PycharmProjects/AdvancePython/mod12&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/тест/PycharmProjects/AdvancePython/mod21&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -89,9 +82,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\тест\PycharmProjects\AdvancePython\mod21" />
       <recent name="C:\Users\тест\PycharmProjects\AdvancePython\mod12" />
       <recent name="C:\Users\тест\PycharmProjects\AdvancePython\mod11" />
-      <recent name="C:\Users\тест\PycharmProjects\AdvancePython\mod21" />
       <recent name="C:\Users\тест\PycharmProjects\AdvancePython\mod20" />
       <recent name="C:\Users\тест\PycharmProjects\AdvancePython\mod19" />
     </key>
@@ -307,7 +300,11 @@
       <workItem from="1683994465271" duration="5149000" />
       <workItem from="1684070683809" duration="1824000" />
       <workItem from="1684072733028" duration="5434000" />
-      <workItem from="1684165620289" duration="3617000" />
+      <workItem from="1684165620289" duration="5312000" />
+      <workItem from="1684434023208" duration="689000" />
+      <workItem from="1684590666933" duration="598000" />
+      <workItem from="1685031259054" duration="5446000" />
+      <workItem from="1685037245291" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1677741649419</created>
@@ -568,7 +565,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683913540233</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="mod12">
+      <created>1684169425434</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1684169425434</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -602,7 +606,8 @@
     <MESSAGE value="mod21" />
     <MESSAGE value="mod11" />
     <MESSAGE value="mod20" />
-    <option name="LAST_COMMIT_MESSAGE" value="mod20" />
+    <MESSAGE value="mod12" />
+    <option name="LAST_COMMIT_MESSAGE" value="mod12" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -638,9 +643,9 @@
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/mod21/task2.py</url>
-          <line>198</line>
-          <option name="timeStamp" value="25" />
+          <url>file://$PROJECT_DIR$/mod21/task.py</url>
+          <line>119</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -677,7 +682,7 @@
     <SUITE FILE_PATH="coverage/AdvancePython$task1_2.coverage" NAME="task1-2 Coverage Results" MODIFIED="1679647123307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod6" />
     <SUITE FILE_PATH="coverage/AdvancePython$Flask__mod2_task8_py_.coverage" NAME="Flask (mod2/task8.py) Coverage Results" MODIFIED="1679238532340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/AdvancePython$task2__1_.coverage" NAME="task2 (1) Coverage Results" MODIFIED="1682757558145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod16" />
-    <SUITE FILE_PATH="coverage/AdvancePython$task.coverage" NAME="task Coverage Results" MODIFIED="1683549852735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod21" />
+    <SUITE FILE_PATH="coverage/AdvancePython$task.coverage" NAME="task Coverage Results" MODIFIED="1685036954927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod21" />
     <SUITE FILE_PATH="coverage/AdvancePython$script.coverage" NAME="script Coverage Results" MODIFIED="1683221973869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod20" />
     <SUITE FILE_PATH="coverage/AdvancePython$task6.coverage" NAME="task6 Coverage Results" MODIFIED="1682442271569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod13" />
     <SUITE FILE_PATH="coverage/AdvancePython$get_mean_size.coverage" NAME="get_mean_size Coverage Results" MODIFIED="1678020230078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod2" />

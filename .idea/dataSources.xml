@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="mod 11" uuid="ea95676c-a7a5-40a1-a101-5aea1cd17510">
+    <data-source source="LOCAL" name="hw" uuid="e147f3a7-4476-4390-a47a-5f8dfc8b1a55">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\тест\PycharmProjects\AdvancePython\mod11\hw.db</jdbc-url>
+      <jdbc-url>jdbc:sqlite:C:\Users\тест\PycharmProjects\AdvancePython\mod21\hw.db</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
       <libraries>
         <library>

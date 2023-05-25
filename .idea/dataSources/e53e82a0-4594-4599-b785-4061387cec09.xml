@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataSource name="mod21">
+<dataSource name="mod12">
   <database-model serializer="dbm" dbms="SQLITE" family-id="SQLITE" format-version="4.45">
     <root id="1">
       <ServerVersion>3.39.2</ServerVersion>
@@ -1313,161 +1313,60 @@
     <argument id="481" parent="165">
       <Position>1</Position>
     </argument>
-    <table id="482" parent="166" name="authors"/>
-    <table id="483" parent="166" name="books"/>
-    <table id="484" parent="166" name="receiving_books"/>
-    <table id="485" parent="166" name="sqlite_master">
+    <table id="482" parent="166" name="sqlite_master">
       <System>1</System>
     </table>
-    <table id="486" parent="166" name="students"/>
-    <column id="487" parent="482" name="id">
-      <DasType>INTEGER|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="488" parent="482" name="name">
-      <DasType>VARCHAR(50)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-    </column>
-    <column id="489" parent="482" name="surname">
-      <DasType>VARCHAR(100)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>3</Position>
-    </column>
-    <key id="490" parent="482">
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="491" parent="483" name="id">
-      <DasType>INTEGER|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="492" parent="483" name="name">
-      <DasType>VARCHAR(100)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-    </column>
-    <column id="493" parent="483" name="count">
-      <DasType>INTEGER|0s</DasType>
-      <Position>3</Position>
-    </column>
-    <column id="494" parent="483" name="release_date">
-      <DasType>DATETIME|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>4</Position>
-    </column>
-    <column id="495" parent="483" name="author_id">
-      <DasType>INTEGER|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>5</Position>
-    </column>
-    <foreign-key id="496" parent="483">
-      <ColNames>author_id</ColNames>
-      <RefColNames>id</RefColNames>
-      <RefTableName>authors</RefTableName>
-    </foreign-key>
-    <key id="497" parent="483">
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="498" parent="484" name="book_id">
-      <DasType>INTEGER|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="499" parent="484" name="student_id">
-      <DasType>INTEGER|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-    </column>
-    <column id="500" parent="484" name="date_of_issue">
-      <DasType>DATETIME|0s</DasType>
-      <Position>3</Position>
-    </column>
-    <column id="501" parent="484" name="date_of_finish">
-      <DasType>DATETIME|0s</DasType>
-      <Position>4</Position>
-    </column>
-    <foreign-key id="502" parent="484">
-      <ColNames>book_id</ColNames>
-      <RefColNames>id</RefColNames>
-      <RefTableName>books</RefTableName>
-    </foreign-key>
-    <foreign-key id="503" parent="484">
-      <ColNames>student_id</ColNames>
-      <RefColNames>id</RefColNames>
-      <RefTableName>students</RefTableName>
-    </foreign-key>
-    <index id="504" parent="484" name="sqlite_autoindex_receiving_books_1">
-      <ColNames>book_id
-student_id</ColNames>
-      <NameSurrogate>1</NameSurrogate>
-      <Unique>1</Unique>
-    </index>
-    <key id="505" parent="484">
-      <ColNames>book_id
-student_id</ColNames>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>sqlite_autoindex_receiving_books_1</UnderlyingIndexName>
-    </key>
-    <column id="506" parent="485" name="type">
+    <table id="483" parent="166" name="sqlite_sequence">
+      <System>1</System>
+    </table>
+    <table id="484" parent="166" name="star_wars_characters"/>
+    <column id="485" parent="482" name="type">
       <DasType>TEXT|0s</DasType>
       <Position>1</Position>
     </column>
-    <column id="507" parent="485" name="name">
+    <column id="486" parent="482" name="name">
       <DasType>TEXT|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="508" parent="485" name="tbl_name">
+    <column id="487" parent="482" name="tbl_name">
       <DasType>TEXT|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="509" parent="485" name="rootpage">
+    <column id="488" parent="482" name="rootpage">
       <DasType>INT|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="510" parent="485" name="sql">
+    <column id="489" parent="482" name="sql">
       <DasType>TEXT|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="511" parent="486" name="id">
-      <DasType>INTEGER|0s</DasType>
-      <NotNull>1</NotNull>
+    <column id="490" parent="483" name="name">
       <Position>1</Position>
     </column>
-    <column id="512" parent="486" name="name">
-      <DasType>VARCHAR(50)|0s</DasType>
+    <column id="491" parent="483" name="seq">
+      <Position>2</Position>
+    </column>
+    <column id="492" parent="484" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <DasType>INTEGER|0s</DasType>
+      <Position>1</Position>
+    </column>
+    <column id="493" parent="484" name="name">
+      <DasType>VARCHAR(100)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="513" parent="486" name="surname">
-      <DasType>VARCHAR(100)|0s</DasType>
+    <column id="494" parent="484" name="birth_year">
+      <DasType>VARCHAR(10)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="514" parent="486" name="phone">
-      <DasType>VARCHAR(50)|0s</DasType>
+    <column id="495" parent="484" name="sex">
+      <DasType>VARCHAR(100)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="515" parent="486" name="email">
-      <DasType>VARCHAR(50)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>5</Position>
-    </column>
-    <column id="516" parent="486" name="average_score">
-      <DasType>FLOAT|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>6</Position>
-    </column>
-    <column id="517" parent="486" name="scholarship">
-      <DasType>BOOLEAN|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>7</Position>
-    </column>
-    <key id="518" parent="486">
+    <key id="496" parent="484">
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
